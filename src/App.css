@@ -1,38 +1,66 @@
+body {
+  background-color: #CCFFFF;
+}
+
 .App {
   text-align: center;
+  font-family: Arial, sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+input {
+  padding: 5px;
+  margin-right: 10px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+ul {
+  list-style: none;
+  padding: 0;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+
+li button {
+  background-color: red;
   color: white;
+  border: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+span {
+  font-size: 18px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.check-button {
+  background-color: rgb(95, 175, 95);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.7s ease, color 0.7s ease;
 }
+
+.delete-button {
+  background-color: rgb(230, 122, 122);
+  color: white;
+  font-size: 20px;
+  cursor: pointer;
+  transition: background-color 0.7s ease, color 0.7s ease;
+}
+
+
