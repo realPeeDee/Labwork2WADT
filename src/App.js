@@ -21,13 +21,13 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Список задач</h1>
+      <h1>ToDo list</h1>
       <div>
         <input
       type="text"
       alue={newTodo}
       onChange={(e) => setNewTodo(e.target.value)}
-      placeholder="Добавить новую задачу"
+      placeholder="Add new task"
   style={{
     padding: '15px',
     width: '15%',
@@ -42,7 +42,7 @@ function App() {
   cursor: 'pointer',
   borderRadius: '20px',
 }}>
-  Добавить
+  Add
 </button>
 
       </div>
